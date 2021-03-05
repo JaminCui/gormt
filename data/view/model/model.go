@@ -117,6 +117,7 @@ func (m *_Model) genTableElement(cols []ColumnsInfo) (el []genstruct.GenElement)
 			if !config.GetSimple() {
 				tmp.AddTag(_tagGorm, "column:"+v.Name)
 				tmp.AddTag(_tagGorm, "type:"+v.Type)
+				tmp.AddTag(_tagGorm, "comment:'"+v.Notes+"'")
 				if !v.IsNull {
 					tmp.AddTag(_tagGorm, "not null")
 				}
