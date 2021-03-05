@@ -6,7 +6,6 @@ require (
 	github.com/jroimartin/gocui v0.4.0
 	github.com/nicksnyder/go-i18n/v2 v2.0.3
 	github.com/spf13/cobra v1.0.0
-	github.com/xxjwxc/gormt v1.1.2
 	github.com/xxjwxc/public v0.0.0-20210303034518-3d2086731fb9
 	golang.org/x/text v0.3.3
 	gopkg.in/go-playground/validator.v9 v9.30.2
@@ -18,4 +17,4 @@ require (
 
 // replace github.com/xxjwxc/public => ../public
 
-replace github.com/xxjwxc/gormt v1.1.2 => ../gormt
+
