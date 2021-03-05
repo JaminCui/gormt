@@ -1,4 +1,4 @@
-module github.com/xxjwxc/gormt
+module github.com/JaminCui/gormt
 
 go 1.13
 

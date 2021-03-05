@@ -7,9 +7,9 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/xxjwxc/gormt/data/config"
-	"github.com/xxjwxc/gormt/data/view/cnf"
-	"github.com/xxjwxc/gormt/data/view/genfunc"
+	"github.com/JaminCui/gormt/data/config"
+	"github.com/JaminCui/gormt/data/view/cnf"
+	"github.com/JaminCui/gormt/data/view/genfunc"
 	"github.com/xxjwxc/public/mybigcamel"
 	"github.com/xxjwxc/public/tools"
 )
